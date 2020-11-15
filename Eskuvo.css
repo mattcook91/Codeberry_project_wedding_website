@@ -1,0 +1,425 @@
+/* =============================
+
+GENERAL STYLES
+
+=============================*/
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: #bd806e;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #eda087;
+	transition: color .15s ease-in-out;
+}
+
+body{
+	background: url('/wedding-landing-background.png') repeat center;
+ 	font-family: 'Libre Baskerville', serif;
+	font-size: 1.125rem;
+  line-height: 1.5;
+	color: #444349;
+}
+
+h1{
+	  font-family: 'Great Vibes', cursive;
+}
+
+
+/* =============================
+
+      HEADER STYLES
+
+=============================*/
+
+.cover {
+	background: url(/wedding-landing-cover.jpg) no-repeat 70% center/cover;
+	height: 100vh;
+	width: 100vw;
+	display: table;
+	text-align: center;
+}
+
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.header-container {
+	background-color: hsla(100,0%,0%,.6);
+	margin: 0 auto;
+}
+
+.name {
+	font-family: "Great Vibes", sans-serif;
+	color: #d2ba87;
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.date {
+	letter-spacing: .1rem;
+	color: white;
+	font-size: 1.1rem;
+	padding-bottom: 0.5rem;
+	font-weight: 600;
+}
+
+.married {
+	letter-spacing: .1rem;
+	color: white;
+	font-size: 1.1rem;
+	padding-top: 0.5rem;
+	font-weight: 600;
+}
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: white;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+.married::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12rem;
+  margin: .3rem auto;
+}
+
+/* =============================
+
+      LOCATIONS STYLES
+
+=============================*/
+
+.locations{
+	width: 100vw;
+	background: url('/wedding-landing-background.png');
+	text-align: center
+}
+
+
+.locations h1{
+	font-family: "Great Vibes", sans-serif;
+	font-size: 3rem;
+	padding: 1rem;
+	font-weight: 600;
+}
+
+.cube img{
+	height: 6.5rem;
+	margin: 1rem
+}
+
+.cube h2{
+	font-weight: 600;
+	font-size: 1.4rem;
+}
+	
+.cube div {
+	font-family: 'Mulish', sans-serif;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.cube::after{
+	display: inline-block;
+	content: "";
+	background-color: black;
+	height: 0.16rem;
+	width: 20%;
+	margin: 1.5rem;
+	vertical-align: middle;
+	background-color: #444349;
+}
+
+/* =============================
+
+      PROGRAM STYLES
+
+=============================*/
+
+.program {
+	width: 100vw;
+	background: hsla(100,0%,0%,.6);
+	color: #d2ba87;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 600;
+}
+
+.program h1{
+	text-align: center;
+	font-family: "Great Vibes", sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	padding: 1rem
+}
+
+.program-time p{
+	padding-bottom: 1rem;
+	font-style: italic
+}
+
+.program-time ul{
+	letter-spacing: 0.1rem;
+	line-height: 1.5rem;
+}
+
+
+.program-time{
+	margin-left: 2rem;
+	padding-bottom: 1.5rem	
+}
+
+
+/* =============================
+
+      GIFTS STYLES
+
+=============================*/
+
+.gifts {
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	font-weight: 600;
+	color: #444349;
+	background: url('/wedding-landing-background.png');
+}
+
+.gifts h1{
+	text-align: center;
+	font-family: "Great Vibes", sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	padding: 1rem;
+}
+
+.gifts img {
+	height: 6rem
+}
+
+.gifts p {
+	padding: 1rem;
+	line-height: 1.5rem;
+}
+
+/* =============================
+
+        FAQ STYLES
+
+=============================*/
+
+
+.question-site {
+	color: #d2ba87;
+	background-color: hsla(100,0%,0%,.6);
+	font-family: 'Mulish', sans-serif;
+	padding-bottom: 1rem;
+}
+
+.question-site h1{
+	font-family: "Great Vibes", sans-serif;
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 600;
+	padding: 1rem 1rem 0 1rem;
+}
+
+.question-group h3{
+	text-align: center;
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	font-weight: 600;
+}
+
+question-group p{
+	text-align: left;
+}
+
+.questions{
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.answers{
+	padding-bottom: 2rem;
+	line-height: 1.5;
+}
+
+.question-group{
+	margin: 0.5rem;
+	padding: 0 1rem;
+}
+
+.question-group::after{
+	content: "";
+  display: block;
+  height: 0.2rem;
+  width: 50%;
+	margin: 0 auto;
+  background-color: #d2ba87;
+}
+
+/* =============================
+
+        CONTACT STYLES
+
+=============================*/
+
+
+.contact-site {
+	background: url('wedding-landing-background.png');
+	color: #444349;
+	text-align: center;
+	margin-bottom: 2.5rem
+}
+
+.contact-site h1{
+	text-align: center;
+	font-family: "Great Vibes", sans-serif;
+	font-size: 3rem;
+	font-weight: 600;
+	padding: 1rem 1rem 0 1rem;
+}
+
+.contact-site p{
+	padding: 1rem;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+
+footer{
+	display: table;
+	text-align: center;
+	width: 100vw;
+	height: 10vh;
+	background: hsla(100,0%,0%,.6);
+	padding: 1rem;
+	font-size: 0.8rem;
+	color: white;
+	font-family:'Mulish', sans-serif;
+	font-weight: 600;
+	
+}
+
+.footer-wrapper{
+	display: table-cell;
+	padding: 0.5rem;
+	vertical-align: middle
+}
+
+/* =============================
+
+MEDIA QUERYK
+
+=============================*/
+
+@media (min-width: 768px){
+	
+	.cover{
+		background:  url(/wedding-landing-cover.jpg) no-repeat cover center;
+	}
+	
+}
+
+@media (min-width: 768px){
+	
+	.header-container .married{
+		text-transform: uppercase;
+	}
+	
+}
+
+@media (min-width: 768px){
+	
+	.header-container .name{
+		font-size: 5rem;
+	}
+	
+}
+
+@media (min-width: 768px){
+	
+	.header-container {
+		padding: 1rem;
+		border-radius: 50px;
+		width: 50%
+	}
+	
+}
+
+
+@media (min-width: 768px){
+	
+	.cube {
+	display: inline-block;
+	text-decoration: none;
+	width:30%;
+	margin: 0 0.5rem 2rem 0.5rem
+	}
+	
+}
+
+@media (min-width: 768px){
+	
+	.cube::after {
+		display: none
+	}
+	
+}
+
+@media (min-width: 768px){
+	
+	.program-time{
+	text-align: center;
+	margin: auto 0;
+	}
+	
+}
+
+@media (min-width: 768px){
+	
+	.question-group{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin: 0.7rem;
+	padding: 1rem
+	}
+	
+	
+	.question-group::after{
+	display: none
+	}
+	
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 5vh;
+  }
+
+}
+
+
+
+
