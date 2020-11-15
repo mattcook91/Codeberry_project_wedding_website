@@ -20,7 +20,7 @@ a:hover {
 }
 
 body{
-	background: url('/wedding-landing-background.png') repeat center;
+	background: url('pictures/wedding-landing-background.png') repeat center;
  	font-family: 'Libre Baskerville', serif;
 	font-size: 1.125rem;
   line-height: 1.5;
@@ -39,7 +39,7 @@ h1{
 =============================*/
 
 .cover {
-	background: url(/wedding-landing-cover.jpg) no-repeat 70% center/cover;
+	background: url(pictures/wedding-landing-cover.jpg) no-repeat 70% center/cover;
 	height: 100vh;
 	width: 100vw;
 	display: table;
@@ -107,7 +107,7 @@ h1{
 
 .locations{
 	width: 100vw;
-	background: url('/wedding-landing-background.png');
+	background: url('pictures/wedding-landing-background.png');
 	text-align: center
 }
 
@@ -196,7 +196,7 @@ h1{
 	text-align: center;
 	font-weight: 600;
 	color: #444349;
-	background: url('/wedding-landing-background.png');
+	background: url('pictures/wedding-landing-background.png');
 }
 
 .gifts h1{
@@ -282,7 +282,7 @@ question-group p{
 
 
 .contact-site {
-	background: url('wedding-landing-background.png');
+	background: url('/pictures/wedding-landing-background.png');
 	color: #444349;
 	text-align: center;
 	margin-bottom: 2.5rem
@@ -337,7 +337,7 @@ MEDIA QUERYK
 @media (min-width: 768px){
 	
 	.cover{
-		background:  url(/wedding-landing-cover.jpg) no-repeat cover center;
+		background:  url('pictures/wedding-landing-cover.jpg') no-repeat cover center;
 	}
 	
 }
